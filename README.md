@@ -34,11 +34,11 @@ The proposed object detection application offers several benefits to visually im
 
 The successful development and implementation of this object detection application can significantly improve the lives of visually impaired individuals by providing them with the ability to navigate their surroundings more effectively and identify objects of interest. This technology has the potential to enhance their daily activities, increase their independence, and improve their overall quality of life.
 
-## Requirements
+### Requirements
 
-The following libraries are required to run the application:
+The following libraries and weights are required to run the application:
 
-| Library | Version |
+| Library/Weight | Version/Link |
 |---|---|
 | Python | 3.9.17 |
 | NumPy | 1.24.3 |
@@ -46,10 +46,13 @@ The following libraries are required to run the application:
 | Keras-Preprocessing | 1.1.2 |
 | opencv-python | 4.8.0.76 |
 | pyttsx3 | 2.90 |
+| yolov3-416 weights | [Drive link](https://drive.google.com/file/d/1sRdGUSyfGW-tz-FaJ0-ufCjzVQF7sleX/view?usp=sharing) |
 
-## Installation
+### Installation
 
-To install the required libraries, you can use the following commands:
+To install the required libraries and weights, follow these steps:
+
+1. Install the libraries using the following commands:
 
 ```bash
 pip install python==3.9.17
@@ -58,3 +61,13 @@ pip install keras==2.13.1
 pip install keras-preprocessing==1.1.2
 pip install opencv-python==4.8.0.76
 pip install pyttsx3==2.90
+
+
+2. Download the yolov3-416 weights from the provided Drive link and place the downloaded file in the appropriate location within your project directory.
+
+### Usage
+
+To run the application, simply execute the following command:
+
+bash
+python main.py
