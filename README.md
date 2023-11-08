@@ -9,10 +9,10 @@ The goal is to build an accessible tool that gives users greater awareness of th
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+run the following command in the terminal for libraries
 
 ```bash
-pip install foobar
+pip install -r requirements.txt
 ```
 
 ## Usage
