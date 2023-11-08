@@ -55,4 +55,4 @@ jupyter notebook yolo_algo.ipynb
 
 2. To run object detection, run the following command:
 
-jupyter notebook main.ipynb
+jupyter notebook Phase1 Project.ipynb
