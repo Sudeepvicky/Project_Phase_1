@@ -4,41 +4,23 @@
 
 Vision impairment is one of the top disabilities globally, affecting millions of people worldwide. Visually impaired individuals face numerous challenges in their daily lives, including difficulty identifying objects around them and navigating their surroundings. This project aims to develop an object detection application to assist visually impaired people in navigating their surroundings and identifying objects of interest.
 
-### Project Overview
+### Creating the Detection Model
 
-The proposed application will utilize deep learning algorithms for object detection and distance estimation. A CNN (Convolutional Neural Network) architecture will be trained using predefined datasets from TensorFlow to identify objects in real-time. Image segmentation and image recognition techniques will be employed to enhance the accuracy of object detection.
+1. Run yolo_algo.ipynb to create the YOLO object detection model. This will generate a model.h5 file.
+2. The model only needs to be created once. The generated model.h5 can be reused.
 
-### Proposed Solution
+### Running Object Detection
 
-The project will involve the following steps:
-
-1. **Data Collection and Preprocessing:** Collect and preprocess a dataset of images containing various objects.
-
-2. **Model Training:** Train a CNN model using the preprocessed dataset to identify and classify objects.
-
-3. **Object Detection and Distance Estimation:** Implement object detection and distance estimation functionalities using the trained CNN model.
-
-4. **Voice Output Integration:** Enable voice output to communicate object detection results and distance information to the user.
-
-### Benefits
-
-The proposed object detection application offers several benefits to visually impaired individuals:
-
-* **Enhanced Mobility and Navigation:** Assistance in identifying objects and navigating surroundings safely and independently.
-
-* **Increased Confidence and Independence:** Empowerment to perform daily tasks with greater confidence and self-reliance.
-
-* **Improved Quality of Life:** Overall enhancement in the quality of life and independence for visually impaired individuals.
-
-### Impact
-
-The successful development and implementation of this object detection application can significantly improve the lives of visually impaired individuals by providing them with the ability to navigate their surroundings more effectively and identify objects of interest. This technology has the potential to enhance their daily activities, increase their independence, and improve their overall quality of life.
+1. Run main.ipynb to run real-time object detection using the created model.h5.
+2. main.ipynb needs to be executed each time you want to detect objects.
+3. Connect a camera and point it at objects.
+4. Detected objects and information will be conveyed through audio.
 
 ### Requirements
 
-The following libraries and weights are required to run the application:
+The following libraries are required to run the application:
 
-| Library/Weight | Version/Link |
+| Library | Version |
 |---|---|
 | Python | 3.9.17 |
 | NumPy | 1.24.3 |
@@ -67,7 +49,10 @@ pip install pyttsx3==2.90
 
 ### Usage
 
-To run the application, simply execute the following command:
+1. To create the object detection model, run the following command:
 
-bash
-python main.py
+jupyter notebook yolo_algo.ipynb
+
+2. To run object detection, run the following command:
+
+jupyter notebook main.ipynb
