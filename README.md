@@ -1,6 +1,11 @@
-# Foobar
+#Object Detection Assistant for Visually Impaired
+Project Overview
 
-Foobar is a Python library for dealing with word pluralization.
+Vision impairment is one of the top disabilities globally. Visually impaired people find it difficult to identify objects around them, which can make daily activities challenging.
+
+This application uses deep learning for real-time object detection to assist visually impaired individuals. The model is trained on image datasets from TensorFlow using convolutional neural networks (CNNs). It can detect common objects and provide information about the object type, distance, and direction through audio feedback.
+
+The goal is to build an accessible tool that gives users greater awareness of their surroundings and more independence.
 
 ## Installation
 
