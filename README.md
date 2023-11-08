@@ -1,4 +1,4 @@
-#Object Detection Assistant for Visually Impaired
+# Object Detection Assistant for Visually Impaired
 Project Overview
 
 Vision impairment is one of the top disabilities globally. Visually impaired people find it difficult to identify objects around them, which can make daily activities challenging.
