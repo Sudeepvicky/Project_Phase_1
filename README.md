@@ -16,11 +16,9 @@ The project will involve the following steps:
 
 2. **Model Training:** Train a CNN model using the preprocessed dataset to identify and classify objects.
 
-3. **Mobile Application Development:** Develop a mobile application that integrates with the camera and audio drivers.
+3. **Object Detection and Distance Estimation:** Implement object detection and distance estimation functionalities using the trained CNN model.
 
-4. **Object Detection and Distance Estimation:** Implement object detection and distance estimation functionalities using the trained CNN model.
-
-5. **Voice Output Integration:** Enable voice output to communicate object detection results and distance information to the user.
+4. **Voice Output Integration:** Enable voice output to communicate object detection results and distance information to the user.
 
 ### Benefits
 
