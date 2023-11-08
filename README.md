@@ -36,8 +36,27 @@ The proposed object detection application offers several benefits to visually im
 
 The successful development and implementation of this object detection application can significantly improve the lives of visually impaired individuals by providing them with the ability to navigate their surroundings more effectively and identify objects of interest. This technology has the potential to enhance their daily activities, increase their independence, and improve their overall quality of life.
 
-## Download
+## Requirements
 
-To download the README.md file, click the following link:
+The following libraries are required to run the application:
 
-[Download README.md](https://raw.githubusercontent.com/bardnlg/bard-public/master/readme.md)
+| Library | Version |
+|---|---|
+| Python | 3.9.17 |
+| NumPy | 1.24.3 |
+| Keras | 2.13.1 |
+| Keras-Preprocessing | 1.1.2 |
+| opencv-python | 4.8.0.76 |
+| pyttsx3 | 2.90 |
+
+## Installation
+
+To install the required libraries, you can use the following commands:
+
+```bash
+pip install python==3.9.17
+pip install numpy==1.24.3
+pip install keras==2.13.1
+pip install keras-preprocessing==1.1.2
+pip install opencv-python==4.8.0.76
+pip install pyttsx3==2.90
