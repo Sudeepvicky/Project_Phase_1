@@ -43,16 +43,6 @@ pip install keras==2.13.1
 pip install keras-preprocessing==1.1.2
 pip install opencv-python==4.8.0.76
 pip install pyttsx3==2.90
-
-
+```
 2. Download the yolov3-416 weights from the provided Drive link and place the downloaded file in the appropriate location within your project directory.
 
-### Usage
-
-1. To create the object detection model, run the following command:
-
-jupyter notebook yolo_algo.ipynb
-
-2. To run object detection, run the following command:
-
-jupyter notebook Phase1 Project.ipynb
